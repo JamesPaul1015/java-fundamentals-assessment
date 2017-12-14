@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Person {
+public class User extends Person{
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please Enter your first name");
@@ -17,4 +18,3 @@ public class Person {
         }
     }
 }
-
